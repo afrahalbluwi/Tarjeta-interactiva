@@ -52,7 +52,7 @@ left: 12%;
         background-image: url('images/bg-card-back.png');
         background-repeat: no-repeat; 
         position: absolute;
-        top: 290px;
+        top: 500px;
         left: 20%;
       }
       .cvv { font-family:Space Grotesk; 
@@ -98,5 +98,12 @@ left: 80%;
     font-family: 'Space Grotesk', sans-serif;
     font-size: 16px;
     cursor: pointer;
+  }
+  
+  @media (max-width: 768px) {
+    .cardfront, .cardback {
+      width: 250px;
+      height: 140px;
+    }
   }
   
