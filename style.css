@@ -1,0 +1,102 @@
+body {width: 1400px; height: 900px;
+background-color: rgb(255, 255, 255); 
+font-family: Space Grotesk;
+background-image: url('images/bg-main-desktop.png');
+background-repeat: no-repeat;
+}
+
+  
+    .cardfront { width: 447px; height: 245px;
+background-image: url('images/bg-card-front.png');
+background-repeat: no-repeat;
+color: rgb(255, 255, 255);
+position: absolute; 
+top: 210px;
+left: 12%;
+}
+      /* الرقم */
+      .cardnumber {
+        position: absolute;
+        top: 125px;
+        left: 40px;
+        font-size: 28px;
+        letter-spacing: 2px;
+     
+      }
+      
+      /* اسم البطاقة */
+      .cardname {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        font-size: 16px;
+        text-transform: uppercase;
+      }
+      
+      /* تاريخ الانتهاء */
+      .carddate {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        font-size: 16px;
+      }
+      
+      .card-logo {
+        position: absolute;
+        top: 20px;
+        left: 30px;
+        width: 60px; /* أو الحجم اللي يناسبك */
+      }
+      .cardback {
+        width: 447px; height: 245px;
+        background-image: url('images/bg-card-back.png');
+        background-repeat: no-repeat; 
+        position: absolute;
+        top: 290px;
+        left: 20%;
+      }
+      .cvv { font-family:Space Grotesk; 
+    font-size: 16px; color: rgb(255, 255, 255);
+position: relative;
+top: 110px;
+left: 80%;
+}
+
+.cardnumberinfo1 label { width: 331px; font-family:Space Grotesk ; position: absolute;  top: 35%; left: 60%; color:21092F ; font-size: 12px;  }
+.cardnumberinfo1 input { width: 381px; height: 45px; border-radius: 8px; border: 1px solid #DFDEE0; background-color: rgb(255, 255, 255); position: absolute; top: 38%; left: 60%; font-family: Space Grotesk; font-size: 16px; color: #21092F; padding-left: 10px; }
+
+.cardnumberinput label { width: 331px; font-family:Space Grotesk ; position: absolute;  top: 47%; left: 60%; color:21092F ; font-size: 12px;  }
+
+.cardnumberinput input {width: 381px; height: 45px; border-radius: 8px; border: 1px solid #DFDEE0; background-color: rgb(255, 255, 255); position: absolute; top: 50%; left: 60%; font-family: Space Grotesk; font-size: 16px; color:#21092F; padding-left: 10px; }
+
+.expirydate label { width: 331px; font-family:Space Grotesk ; position: absolute;  top: 60%; left: 60%; color:21092F ; font-size: 12px;   }
+
+.expirydate input { width: 181px; height: 45px; border-radius: 8px; border: 1px solid #DFDEE0; background-color: rgb(255, 255, 255); position: absolute; top: 63%; left: 60%; font-family: Space Grotesk; font-size: 16px; color:#21092F; padding-left: 10px; }
+
+.cvvinput label {  width: 331px; font-family:Space Grotesk ; position: absolute;  top: 60%; left: 75%; color:21092F ; font-size: 12px;  }
+
+.cvvinput input { width: 168px; height: 45px; border-radius: 8px; border: 1px solid #DFDEE0; background-color: rgb(255, 255, 255); position: absolute; top: 63%; left: 75%; font-family: Space Grotesk; font-size: 16px; color: #21092F; padding-left: 10px; }
+
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    position: absolute; top: 70%; left: 60%;
+    width: 385px; height: 45px;
+
+  }
+  
+  .submitbutton {
+    width: 100%;
+    max-width: 400px;
+    height: 45px;
+    border-radius: 8px;
+    border: none;
+    background-color: hsl(278, 68%, 11%);
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,59 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+    <title>Document</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+<body>
+ 
+   <div  class="container"  id="container"> 
+    <div class="cardfront" id="cardfront"> 
+        <img src="images/card-logo.svg" class="card-logo" alt="Card Logo">
+        <span class="cardnumber" >  0000 0000 0000 0000 </span>
+        <div class="card-details">
+   <span class="cardname">  Afrah ALBLUWI </span> 
+    <span class=" carddate" >  00/00   </span> 
+</div>  
+
+
+    <div class="cardback" id="cardback">
+        <span class="cvv"> 123 </span>
+    </div>
+    </div>
+    
+<div class="cardinformation" id="information"> 
+
+    <div class="cardnumberinfo1">
+        <label for="cardnumberinfo1">CARDHOLDER NAME</label>
+        <input type="text" id="cardnumberinfo1" placeholder="Afrah Albluwi Hmoud" maxlength="19" oninput="formatCardNumber(this)">
+    </div>
+
+    <div class="cardnumberinput">
+        <label for="cardnumberinput">CARD NUMPER</label>
+        <input type="text" id="cardnumberinput" placeholder="0000 0000 0000 0000" maxlength="19" oninput="formatCardNumber(this)">
+    </div>
+
+    <div class="row"> 
+    <div class="expirydate">
+        <label for="expirydate">EXP. DATE (MM/YY)</label>
+        <input type="text" id="expirydate" placeholder="MM/YY" maxlength="5" oninput="formatExpiryDate(this)">
+    </div>
+    <div class="cvvinput">
+        <label for="cvvinput">CVV</label>
+        <input type="text" id="cvvinput" placeholder="123" maxlength="3">
+    </div> 
+
+    <div class="button-container">
+        <button type="submit" id="submitbutton" class="submitbutton">SUBMIT</button>
+      </div>
+      
+</div> 
+
+</body>
+</html>
